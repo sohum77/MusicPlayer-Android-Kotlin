@@ -43,6 +43,61 @@ This was a **group project**, and my specific responsibilities were:
 
 ---
 
+### 📁 Project Structure
+```
+MusicPlayer-Android-Kotlin/
+│
+├── .gradle/                          # Gradle cache and build files (auto-generated)
+├── .idea/                            # Android Studio project configuration
+│
+├── APK/                              # APK builds for demo/testing
+│   └── Music_Player_v1.0.apk
+│
+├── app/                              # Main app module (Kotlin source code, layouts, manifest)
+│   ├── build/                        # Compiled build outputs
+│   ├── src/                          # Source files (MainActivity, adapters, resources)
+│   └── proguard-rules.pro            # Code optimization & obfuscation rules
+│
+├── build/                            # Project-level build outputs
+├── gradle/                           # Gradle wrapper configuration
+│   └── wrapper/
+│
+├── music_player_screenshots/         # App screenshots for README preview
+│   ├── Favourites Section Screen.jpg
+│   ├── Music Library Screen colour of Red.jpg
+│   ├── Music Player App colour changes to blue.jpg
+│   ├── Music Player App Running in Background.jpg
+│   ├── Music Running Screen (Blue).jpg
+│   ├── Music Running Screen (Red).jpg
+│   ├── Playlists Music Section Screen (1).jpg
+│   ├── Playlists Music Section Screen (2).jpg
+│   └── Playlists Section Screen.jpg
+│
+├── .gitignore                        # Git ignore rules
+├── build.gradle                      # Project-level Gradle file
+├── gradle.properties                 # Gradle build settings
+├── gradlew                           # Unix Gradle wrapper
+├── gradlew.bat                       # Windows Gradle wrapper
+├── local.properties                  # Local SDK path (ignored in Git)
+├── README.md                         # Project documentation
+└── settings.gradle                   # Project settings for Gradle
+```
+
+> 💡 **Note:**  
+> The **`APK/`** folder stores the built `.apk` file for testing or sharing.  
+> Keep screenshots separately inside the `music_player_screenshots/` folder for documentation.  
+> This separation keeps your repository neat, professional, and easy to navigate.
+
+---
+
+### 📦 APK Download
+If you just want to try the app without building it yourself:  
+> 📱 [**Download Music Player v1.0 APK**](./APK/Music_Player_v1.0.apk)
+
+*(Click above to download directly from this repository.)*
+
+---
+
 ### 💡 Key Features
 - 🎧 Play/Pause songs using earphones  
 - ⏭️ Play Next / Queue upcoming songs  
@@ -74,7 +129,7 @@ This was a **group project**, and my specific responsibilities were:
 ### ⚙️ Installation & Setup
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/<my-username>/MusicPlayer-Android-Kotlin.git
+git clone https://github.com/<your-username>/MusicPlayer-Android-Kotlin.git
 cd MusicPlayer-Android-Kotlin
 ```
 
@@ -87,7 +142,6 @@ cd MusicPlayer-Android-Kotlin
 - Wait for Gradle to sync
 - Connect a device or use an emulator
 - Click **▶ Run**
-
 
 ---
 
@@ -106,7 +160,6 @@ I did **not contribute to data collection, assets, or original design materials*
 
 All **songs, icons, themes, and other content** used within the app belong to their **respective owners and creators**.  
 This repository is for **educational and demonstration purposes only**, and no copyright infringement is intended.
-
 
 ---
 
