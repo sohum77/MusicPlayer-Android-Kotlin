@@ -1,5 +1,8 @@
 # 🎵 Music Player – Android (Kotlin)
 
+![Music Player App Screenshot](music_player_screenshots/Music Player App Running in Background.jpg)
+
+
 ### 📘 About the Project
 This project is a **feature-rich Android Music Player application** developed using **Kotlin** and **Android SDK**.  
 It allows users to **play, manage, and customize** their music library directly from their device storage, offering a smooth and modern listening experience with features like **custom themes, equalizer, playlists, favourites, and dark mode**.
